@@ -1,12 +1,10 @@
 package com.example.demo.cxfdemo.cxfbeanspring;
 
 import com.example.demo.cxfdemo.server.queryRoomInfo;
-import com.example.demo.cxfdemo.serviceImpl.queryRoomInfoImpl;
 import org.apache.cxf.Bus;
 import org.apache.cxf.bus.spring.SpringBus;
 import org.apache.cxf.transport.servlet.CXFServlet;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.SpringBootConfiguration;
 import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import javax.xml.ws.Endpoint;
